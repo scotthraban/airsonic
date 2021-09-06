@@ -10,6 +10,11 @@ Airsonic
 [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/airsonic/airsonic.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/airsonic/airsonic/context:java)
 [![codecov.io coverage](https://codecov.io/gh/airsonic/airsonic/branch/master/graph/badge.svg)](https://codecov.io/gh/airsonic/airsonic)
 
+## This fork was taken to track changes to the docker file to allow:
+ - Building an image using the published war file, rather than building from scratch.
+ - Allow for changes to be able to build arm64 to allow running on Raspberry PI.
+ - Add a build script to build multi-arch images
+
 ## Airsonic isn't maintained anymore, you should migrate to [airsonic-advanced](https://github.com/airsonic-advanced/airsonic-advanced) instead.
 
 ---
